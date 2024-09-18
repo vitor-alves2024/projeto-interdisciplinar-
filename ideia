@@ -1,0 +1,38 @@
+PROJETOS ELEITORAIS
+
+Camadas de Usuário e Permissões:
+Usuários: Diferenciar melhor os níveis de acesso para vereadores, deputados, cidadãos e administradores. Cada grupo poderia ter permissões distintas, por exemplo:
+
+Legisladores (vereadores, deputados) podem criar, editar e remover projetos.
+
+Cidadãos podem visualizar e comentar, mas não editar projetos.
+
+Administradores teriam controle sobre a moderação de conteúdos, gerenciamento de usuários e aprovação de projetos.
+
+Fluxo de Acompanhamento de Projetos:
+Status dos Projetos: Implementar uma funcionalidade onde os projetos passem por diferentes estágios, como “Proposta”, “Em discussão”, “Aprovado”, etc., permitindo que os cidadãos acompanhem o progresso.
+
+Notificações: Enviar notificações para os cidadãos que seguem ou apoiam um projeto, quando há atualizações ou movimentações.
+
+Gerenciamento de Documentos:
+Tipos de Documentos: Oferecer suporte para diferentes tipos de documentos (PDF, Word, imagens), organizando-os em categorias como “Estudos de Impacto”, “Emendas”, “Relatórios”.
+
+Controle de Versão: Implementar uma funcionalidade de controle de versão para que, sempre que um documento for atualizado, o histórico das versões anteriores fique acessível.
+
+Interatividade com a População:
+Sessão de Comentários: Melhorar a área de comentários, com a possibilidade de os usuários votarem em comentários (positivos ou negativos) e de legisladores responderem diretamente às questões levantadas.
+
+Enquetes: Além dos comentários, criar enquetes para medir a opinião pública sobre os projetos de forma mais estruturada.
+
+Dashboard e Dados:
+Visualização de Dados: Melhorar o dashboard com gráficos sobre o apoio aos projetos, segmentando por perfil de usuário, localidade, faixa etária, entre outros. Assim, legisladores e cidadãos podem ter uma visão mais clara sobre quem apoia cada projeto.
+
+Relatórios Gerados: Permitir que os legisladores exportem relatórios com os dados de apoio e opiniões em formato PDF ou Excel, facilitando o uso dessas informações em reuniões ou sessões.
+
+Foco na Segurança e Transparência:
+Autenticação e Segurança: Implementar autenticação forte, como autenticação de dois fatores (2FA), para garantir que apenas usuários autorizados postem projetos e documentos.
+
+Transparência: Criar uma página pública onde todos os dados sobre o apoio e andamento dos projetos possam ser visualizados sem a necessidade de login, aumentando a transparência do sistema.
+
+Essa versão aprimorada da proposta daria mais funcionalidade ao sistema, ao mesmo tempo em que promove a interatividade e o engajamento da população, além de garantir maior segurança e transparência.
+
