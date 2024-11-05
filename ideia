@@ -1,38 +1,27 @@
-PROJETOS ELEITORAIS
+# **Info Voto**
 
-Camadas de Usuário e Permissões:
-Usuários: Diferenciar melhor os níveis de acesso para vereadores, deputados, cidadãos e administradores. Cada grupo poderia ter permissões distintas, por exemplo:
+### **Camadas de Usuário e Permissões**
+Definição dos níveis de acesso:
+- **Legisladores** *(vereadores, deputados)*: podem **criar, editar e remover** projetos.
+- **Cidadãos**: têm permissão para **visualizar e comentar**, mas não podem editar.
+- **Administradores**: controlam a **moderação de conteúdos, gerenciamento de usuários e aprovação de projetos**.
 
-Legisladores (vereadores, deputados) podem criar, editar e remover projetos.
+### **Fluxo de Acompanhamento de Projetos**
+- **Status dos Projetos**: Integre diferentes estágios, como “Proposta”, “Em discussão”, “Aprovado”, facilitando o acompanhamento.
+- **Notificações**: Envio de alertas para cidadãos que seguem ou apoiam projetos quando houver novas atualizações.
 
-Cidadãos podem visualizar e comentar, mas não editar projetos.
+### **Gerenciamento de Documentos**
+- **Tipos de Documentos**: Suporte para **PDFs, documentos Word e imagens**. Organize em categorias como "Estudos de Impacto", "Emendas" e "Relatórios".
+- **Controle de Versão**: Mantenha o histórico de versões de cada documento para acesso a versões anteriores.
 
-Administradores teriam controle sobre a moderação de conteúdos, gerenciamento de usuários e aprovação de projetos.
+### **Interatividade com a População**
+- **Sessão de Comentários**: Usuários podem **votar em comentários** e legisladores podem **responder diretamente**.
+- **Enquetes**: Adicione enquetes para medir a opinião pública de forma estruturada.
 
-Fluxo de Acompanhamento de Projetos:
-Status dos Projetos: Implementar uma funcionalidade onde os projetos passem por diferentes estágios, como “Proposta”, “Em discussão”, “Aprovado”, etc., permitindo que os cidadãos acompanhem o progresso.
+### **Dashboard e Dados**
+- **Visualização de Dados**: Gráficos sobre apoio aos projetos com dados segmentados por **perfil de usuário, localidade, faixa etária**.
+- **Relatórios Gerados**: Exportação em **PDF ou Excel** com dados de apoio e opiniões para fácil compartilhamento.
 
-Notificações: Enviar notificações para os cidadãos que seguem ou apoiam um projeto, quando há atualizações ou movimentações.
-
-Gerenciamento de Documentos:
-Tipos de Documentos: Oferecer suporte para diferentes tipos de documentos (PDF, Word, imagens), organizando-os em categorias como “Estudos de Impacto”, “Emendas”, “Relatórios”.
-
-Controle de Versão: Implementar uma funcionalidade de controle de versão para que, sempre que um documento for atualizado, o histórico das versões anteriores fique acessível.
-
-Interatividade com a População:
-Sessão de Comentários: Melhorar a área de comentários, com a possibilidade de os usuários votarem em comentários (positivos ou negativos) e de legisladores responderem diretamente às questões levantadas.
-
-Enquetes: Além dos comentários, criar enquetes para medir a opinião pública sobre os projetos de forma mais estruturada.
-
-Dashboard e Dados:
-Visualização de Dados: Melhorar o dashboard com gráficos sobre o apoio aos projetos, segmentando por perfil de usuário, localidade, faixa etária, entre outros. Assim, legisladores e cidadãos podem ter uma visão mais clara sobre quem apoia cada projeto.
-
-Relatórios Gerados: Permitir que os legisladores exportem relatórios com os dados de apoio e opiniões em formato PDF ou Excel, facilitando o uso dessas informações em reuniões ou sessões.
-
-Foco na Segurança e Transparência:
-Autenticação e Segurança: Implementar autenticação forte, como autenticação de dois fatores (2FA), para garantir que apenas usuários autorizados postem projetos e documentos.
-
-Transparência: Criar uma página pública onde todos os dados sobre o apoio e andamento dos projetos possam ser visualizados sem a necessidade de login, aumentando a transparência do sistema.
-
-Essa versão aprimorada da proposta daria mais funcionalidade ao sistema, ao mesmo tempo em que promove a interatividade e o engajamento da população, além de garantir maior segurança e transparência.
-
+### **Foco na Segurança e Transparência**
+- **Autenticação e Segurança**: Autenticação de **dois fatores (2FA)** para proteção do sistema.
+- **Transparência**: Página pública com dados sobre apoio e progresso dos projetos, visível para todos sem necessidade de login.
