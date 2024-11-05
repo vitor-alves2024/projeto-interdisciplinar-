@@ -22,8 +22,10 @@ Definição dos níveis de acesso:
 
 ### **Dashboard e Dados**
 - **Visualização de Dados**: Gráficos sobre apoio aos projetos com dados segmentados por **perfil de usuário, localidade, faixa etária**.
-- **Relatórios Gerados**: Exportação em **PDF ou Excel** com dados de apoio e opiniões para fácil compartilhamento.
+- **Relatórios Gerados**: Exportação em **Power Bi** com dados de apoio e opiniões para fácil compartilhamento.
 
 ### **Foco na Segurança e Transparência**
 - **Autenticação e Segurança**: Autenticação de **dois fatores (2FA)** para proteção do sistema.
 - **Transparência**: Página pública com dados sobre apoio e progresso dos projetos, visível para todos sem necessidade de login.
+
+- 
